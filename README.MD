@@ -13,7 +13,7 @@ There are two scripts in this package:
     -   This builds the API out by scraping the Krispy Kreme website for all current donuts and types.
         As donuts are seasonal, you will want to run this every so often to update the `donuts.json` in
         your project folder.
-    -   You must run this at least once before running the server.
+    -   Because I saved the data files to the source, YOU ONLY NEED TO RUN THIS TO GET THE LATEST INFO.
 -   `npm run serve`
     -   This runs a server to serve your data on `localhost:3000`.
 
