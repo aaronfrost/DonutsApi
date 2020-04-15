@@ -14,6 +14,8 @@ There are two scripts in this package:
         As donuts are seasonal, you will want to run this every so often to update the `donuts.json` in
         your project folder.
     -   Because I saved the data files to the source, YOU ONLY NEED TO RUN THIS TO GET THE LATEST INFO.
+    -   If you do this, it may not work anymore. And you will to just do a git reset and only run the
+        serve command.
 -   `npm run serve`
     -   This runs a server to serve your data on `localhost:3000`.
 
