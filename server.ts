@@ -18,6 +18,7 @@ interface Donut {
 }
 
 app.use(cors());
+app.use(express.static('static'));
 app.get('/', (req, res) => {
     res.json({
         hello: 'Welcome to the DonutAPI.',

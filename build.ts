@@ -1,8 +1,10 @@
-import { pathExists, pathExistsSync } from 'fs-extra';
+import { pathExistsSync } from 'fs-extra';
 import { JSDOM } from 'jsdom';
 import * as puppeteer from 'puppeteer';
 import * as fx from 'fs-extra';
 import { join } from 'path';
+var fs = require('fs');
+var https = require('https');
 
 let domain = 'https://www.krispykreme.com';
 let browser;
@@ -35,8 +37,25 @@ const runKrispyKreme = async () => {
     );
     for (let i = 0; i < donuts.length; i++) {
         let donut = donuts[i];
-        console.log('Visiting', donut.url);
+        // console.log('Visiting', donut.url);
+        console.log(
+            `Processing ${donut.id}: ${i + 1}/${donuts.length}`,
+            donut.url,
+        );
         await page.goto(donut.url);
+
+        const donutImgUrl = join(
+            __dirname,
+            'static',
+            'images',
+            donut.id + '.jpg',
+        );
+        const donutBannerImgUrl = join(
+            __dirname,
+            'static',
+            'images',
+            donut.id + '-banner.jpg',
+        );
         const content = await page.content();
         const dom = new JSDOM(content);
         let node: any = dom.window.document.querySelector('.menu-detail');
@@ -51,6 +70,10 @@ const runKrispyKreme = async () => {
             .querySelector('.menu-detail > p')
             .innerHTML.split(/\<[^>]*\>/g)
             .join('');
+        await saveImageToDisk(donut.img, donutImgUrl);
+        await saveImageToDisk(donut.bannerUrl, donutBannerImgUrl);
+        donut.img = `/images/${donut.id}.jpg`;
+        donut.bannerUrl = `/images/${donut.id}-banner.jpg`;
     }
     if (!pathExistsSync(join(__dirname, 'data'))) {
         fx.mkdir(join(__dirname, 'data'));
@@ -63,7 +86,7 @@ const runKrispyKreme = async () => {
 
 (async () => {
     browser = await puppeteer.launch();
-    await runProvoBakery();
+    await runKrispyKreme();
     browser.close();
 })();
 
@@ -98,7 +121,10 @@ const runProvoBakery = async () => {
     });
     for (let i = 0; i < donuts.length; i++) {
         let donut = donuts[i];
-        console.log('Visiting', donut.url);
+        console.log(
+            `Processing ${donut.id}: ${i + 1}/${donuts.length}`,
+            donut.url,
+        );
         await page.goto(donut.url);
         const content = await page.content();
         const dom = new JSDOM(content);
@@ -122,3 +148,18 @@ const runProvoBakery = async () => {
     // fx.writeJsonSync(join(__dirname, './data/types.json'), types);
     fx.writeJsonSync(join(__dirname, './data/donuts.json'), donuts);
 };
+
+//Node.js Function to save image from External URL.
+function saveImageToDisk(url, localPath) {
+    return new Promise((res, rej) => {
+        var fullUrl = url;
+        var file = fs.createWriteStream(localPath);
+        // console.log('requesting', url);
+        var request = https.get(encodeURI(url), function (response) {
+            response.pipe(file);
+            response.on('end', () => {
+                res();
+            });
+        });
+    });
+}
