@@ -41,9 +41,11 @@ const runKrispyKreme = async () => {
         let node: any = dom.window.document.querySelector('.menu-detail');
         donut.bannerUrl =
             domain + node.querySelector('.hero > img').getAttribute('src');
-        donut.nutritionalFacts = node
-            .querySelector('[data-track="item-detail-nutrition"]')
-            .getAttribute('href');
+        donut.nutritionalFacts =
+            domain +
+            node
+                .querySelector('[data-track="item-detail-nutrition"]')
+                .getAttribute('href');
         donut.description = dom.window.document
             .querySelector('.menu-detail > p')
             .innerHTML.split(/\<[^>]*\>/g)

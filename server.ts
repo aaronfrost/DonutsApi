@@ -1,4 +1,5 @@
 import * as express from 'express';
+import * as cors from 'cors';
 import * as donutTypes from './data/types.json';
 import * as donuts from './data/donuts.json';
 const app = express();
@@ -16,6 +17,7 @@ interface Donut {
     description: string;
 }
 
+app.use(cors());
 app.get('/', (req, res) => {
     res.json({
         hello: 'Welcome to the DonutAPI.',
