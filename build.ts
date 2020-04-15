@@ -56,24 +56,35 @@ const runKrispyKreme = async () => {
             'images',
             donut.id + '-banner.jpg',
         );
+        const donutNutritionalFact = join(
+            __dirname,
+            'static',
+            'images',
+            donut.id + '-facts.pdf',
+        );
         const content = await page.content();
         const dom = new JSDOM(content);
         let node: any = dom.window.document.querySelector('.menu-detail');
         donut.bannerUrl =
             domain + node.querySelector('.hero > img').getAttribute('src');
-        donut.nutritionalFacts =
-            domain +
-            node
-                .querySelector('[data-track="item-detail-nutrition"]')
-                .getAttribute('href');
+        donut.nutritionalFacts = node
+            .querySelector('[data-track="item-detail-nutrition"]')
+            .getAttribute('href');
         donut.description = dom.window.document
             .querySelector('.menu-detail > p')
             .innerHTML.split(/\<[^>]*\>/g)
             .join('');
         await saveImageToDisk(donut.img, donutImgUrl);
         await saveImageToDisk(donut.bannerUrl, donutBannerImgUrl);
+        if (donut.nutritionalFacts.startsWith('http')) {
+            await saveImageToDisk(
+                donut.nutritionalFacts.replace('http:', 'https:'),
+                donutNutritionalFact,
+            );
+        }
         donut.img = `/images/${donut.id}.jpg`;
         donut.bannerUrl = `/images/${donut.id}-banner.jpg`;
+        donut.nutritionalFacts = `/images/${donut.id}-facts.pdf`;
     }
     if (!pathExistsSync(join(__dirname, 'data'))) {
         fx.mkdir(join(__dirname, 'data'));
