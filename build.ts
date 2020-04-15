@@ -1,3 +1,4 @@
+import { pathExists, pathExistsSync } from 'fs-extra';
 import { JSDOM } from 'jsdom';
 import * as puppeteer from 'puppeteer';
 import * as fx from 'fs-extra';
@@ -51,7 +52,11 @@ const runKrispyKreme = async () => {
             .innerHTML.split(/\<[^>]*\>/g)
             .join('');
     }
-    fx.mkdir(join(__dirname, 'data'));
+    if (!pathExistsSync(join(__dirname, 'data'))) {
+        fx.mkdir(join(__dirname, 'data'));
+    }
+    fx.removeSync(join(__dirname, './data/types.json'));
+    fx.removeSync(join(__dirname, './data/donuts.json'));
     fx.writeJsonSync(join(__dirname, './data/types.json'), types);
     fx.writeJsonSync(join(__dirname, './data/donuts.json'), donuts);
 };
