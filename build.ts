@@ -23,7 +23,7 @@ const runKrispyKreme = async () => {
         let url = node.querySelector(`a[href]`).getAttribute('href');
         donut.url = `${domain}${url}`;
         donut.img = domain + node.querySelector('img').getAttribute('src');
-        donut.imgAlt = domain + node.querySelector('img').getAttribute('alt');
+        donut.imgAlt = node.querySelector('img').getAttribute('alt');
         donut.id = url.split('/').pop();
         donut.types = node.getAttribute('data-filter-names').split('|');
         return donut;
