@@ -63,7 +63,7 @@ const runKrispyKreme = async () => {
 
 (async () => {
     browser = await puppeteer.launch();
-    await runKrispyKreme();
+    await runProvoBakery();
     browser.close();
 })();
 
@@ -72,3 +72,53 @@ async function getPage(url) {
     await page.goto(url);
     return page;
 }
+
+const runProvoBakery = async () => {
+    const page = await getPage(`https://www.theprovobakery.com/temporary-menu`);
+    const content = await page.content();
+    const dom = new JSDOM(content);
+    const domain = 'https://www.theprovobakery.com';
+    const donuts = Array.from(
+        dom.window.document.querySelectorAll('.product-block:not(.clear)'),
+    ).map((node: any) => {
+        let donut: any = {};
+        donut.title = node.querySelector('.product-title').innerHTML;
+        let url = node.querySelector(`.product-title`).getAttribute('href');
+        donut.url = `${domain}${url}`;
+        console.log('donut-title', donut.title);
+        donut.img = node.querySelector('.image-container img')
+            ? domain +
+              node.querySelector('.image-container img').getAttribute('src')
+            : null;
+        donut.imgAlt = node.querySelector('.image-container img')
+            ? node.querySelector('.image-container img').getAttribute('alt')
+            : null;
+        donut.id = url.split('/').pop();
+        return donut;
+    });
+    for (let i = 0; i < donuts.length; i++) {
+        let donut = donuts[i];
+        console.log('Visiting', donut.url);
+        await page.goto(donut.url);
+        const content = await page.content();
+        const dom = new JSDOM(content);
+        donut.description = dom.window.document.querySelector(
+            '.product-excerpt',
+        )
+            ? dom.window.document
+                  .querySelector('.product-excerpt')
+                  .innerHTML.split(/\<[^>]*\>/g)
+                  .join('')
+            : '';
+        donut.price = dom.window.document.querySelector(
+            '.sqs-money-native',
+        ).innerText;
+    }
+    if (!pathExistsSync(join(__dirname, 'data'))) {
+        fx.mkdir(join(__dirname, 'data'));
+    }
+    // fx.removeSync(join(__dirname, './data/types.json'));
+    fx.removeSync(join(__dirname, './data/donuts.json'));
+    // fx.writeJsonSync(join(__dirname, './data/types.json'), types);
+    fx.writeJsonSync(join(__dirname, './data/donuts.json'), donuts);
+};
