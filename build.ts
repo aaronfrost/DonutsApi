@@ -19,11 +19,15 @@ const runKrispyKreme = async () => {
         ),
     ).map((node: any) => {
         let donut: any = {};
-        donut.title = node.querySelector('.title').innerHTML;
+        donut.title = removeHtmlFromString(
+            node.querySelector('.title').innerHTML,
+        );
         let url = node.querySelector(`a[href]`).getAttribute('href');
         donut.url = `${domain}${url}`;
         donut.img = domain + node.querySelector('img').getAttribute('src');
-        donut.imgAlt = node.querySelector('img').getAttribute('alt');
+        donut.imgAlt = removeHtmlFromString(
+            node.querySelector('img').getAttribute('alt'),
+        );
         donut.id = url.split('/').pop();
         donut.types = node.getAttribute('data-filter-names').split('|');
         return donut;
@@ -173,4 +177,14 @@ function saveImageToDisk(url, localPath) {
             });
         });
     });
+}
+
+function removeHtmlFromString(str: string) {
+    return str
+        .replace(/<\w+[^>]*>/, '')
+        .replace(/<\/\w+\/?>/, '')
+        .replace('®', '')
+        .replace('™', '')
+        .replace(/\s{2,}/, ' ')
+        .trim();
 }

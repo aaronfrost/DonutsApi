@@ -1,9 +1,9 @@
 [
   {
-    "title": "OREO® Cookie Glazed Doughnut",
+    "title": "OREO Cookie Glazed Doughnut",
     "url": "https://www.krispykreme.com/menu/doughnuts/oreo®-cookie-glazed-doughnut",
     "img": "/images/oreo®-cookie-glazed-doughnut.jpg",
-    "imgAlt": "Picture of OREO® Cookie Glazed Doughnut",
+    "imgAlt": "Picture of OREO Cookie Glazed Doughnut",
     "id": "oreo®-cookie-glazed-doughnut",
     "types": [
       "Toppings"
@@ -13,10 +13,10 @@
     "description": "The Original Glazed® Doughnut covered in rich OREO® Cookie Glaze, filled with Cookies and KREME™, and finished with an icing drizzle and OREO® Cookie pieces."
   },
   {
-    "title": "OREO® Cookie Over-the-Top Doughnut",
+    "title": "OREO Cookie Over-the-Top Doughnut",
     "url": "https://www.krispykreme.com/menu/doughnuts/oreo®-cookie-over-the-top-doughnut",
     "img": "/images/oreo®-cookie-over-the-top-doughnut.jpg",
-    "imgAlt": "Picture of OREO® Cookie Over-the-Top Doughnut",
+    "imgAlt": "Picture of OREO Cookie Over-the-Top Doughnut",
     "id": "oreo®-cookie-over-the-top-doughnut",
     "types": [
       "Toppings"
@@ -39,10 +39,10 @@
     "description": "A doughnut filled with REESE’S Peanut Butter Kreme™, dipped in HERSHEY’S chocolate icing, topped with mini peanut butter chips and a drizzle of chocolate and REESE’S peanut butter sauce. "
   },
   {
-    "title": "Original Filled <br> Original Kreme™",
+    "title": "Original Filled Original Kreme",
     "url": "https://www.krispykreme.com/menu/doughnuts/original-filled-original-kreme™",
     "img": "/images/original-filled-original-kreme™.jpg",
-    "imgAlt": "Picture of Original Filled </br> Original Kreme™",
+    "imgAlt": "Picture of Original Filled Original Kreme",
     "id": "original-filled-original-kreme™",
     "types": [
       "Iced",
@@ -53,10 +53,10 @@
     "description": "Original Filled, Original Kreme™ Doughnut:  Our iconic Original Glazed®  Doughnut filled with classic White Kreme™ and decorated with an icing drizzle. "
   },
   {
-    "title": "Original Filled Chocolate Kreme™",
+    "title": "Original Filled Chocolate Kreme",
     "url": "https://www.krispykreme.com/menu/doughnuts/original-filled-chocolate-kreme™",
     "img": "/images/original-filled-chocolate-kreme™.jpg",
-    "imgAlt": "Picture of Original Filled Chocolate Kreme™",
+    "imgAlt": "Picture of Original Filled Chocolate Kreme",
     "id": "original-filled-chocolate-kreme™",
     "types": [
       "Iced",
@@ -68,10 +68,10 @@
     "description": "Original Filled, Chocolate Kreme™ Doughnut:  Our iconic Original Glazed®  Doughnut filled with Chocolate Kreme™ and decorated with a chocolate icing drizzle."
   },
   {
-    "title": "Original Glazed<sup>®</sup>",
+    "title": "Original Glazed",
     "url": "https://www.krispykreme.com/menu/doughnuts/original-glazed-doughnut",
     "img": "/images/original-glazed-doughnut.jpg",
-    "imgAlt": "Picture of Original Glazed<sup>®</sup>",
+    "imgAlt": "Picture of Original Glazed",
     "id": "original-glazed-doughnut",
     "types": [
       "Glazed"
@@ -112,10 +112,10 @@
     "description": "Our Original Glazed® ring is dipped in chocolate icing and then topped with colorful sprinkles."
   },
   {
-    "title": "OREO<sup>®</sup> Cookies and KREME",
+    "title": "OREO Cookies and KREME",
     "url": "https://www.krispykreme.com/menu/doughnuts/oreo-cookies-and-kreme",
     "img": "/images/oreo-cookies-and-kreme.jpg",
-    "imgAlt": "Picture of OREO<sup>®</sup> Cookies and KREME",
+    "imgAlt": "Picture of OREO Cookies and KREME",
     "id": "oreo-cookies-and-kreme",
     "types": [
       "Iced",
@@ -128,10 +128,10 @@
     "description": "Our OREO® Cookies and Kreme Doughnut is a fan favorite! Filled with OREO Cookies and Kreme filling, dipped in dark chocolate icing and topped with OREO cookie pieces. You don't want to miss this."
   },
   {
-    "title": "Chocolate Iced with KREME<sup>™</sup> Filling",
+    "title": "Chocolate Iced with KREME Filling",
     "url": "https://www.krispykreme.com/menu/doughnuts/chocolate-iced-with-kreme-filling",
     "img": "/images/chocolate-iced-with-kreme-filling.jpg",
-    "imgAlt": "Picture of Chocolate Iced with KREME<sup>™</sup> Filling",
+    "imgAlt": "Picture of Chocolate Iced with KREME Filling",
     "id": "chocolate-iced-with-kreme-filling",
     "types": [
       "Iced",
@@ -247,10 +247,10 @@
     "description": "Our classic Original Glazed® Doughnut covered in rich chocolate glaze.  *Available on Chocolate Glaze Fridays in participating locations."
   },
   {
-    "title": "Glazed with KREME<sup>™</sup>  Filling",
+    "title": "Glazed with KREME Filling",
     "url": "https://www.krispykreme.com/menu/doughnuts/glazed-with-kreme-filling",
     "img": "/images/glazed-with-kreme-filling.jpg",
-    "imgAlt": "Picture of Glazed with KREME<sup>™</sup>  Filling",
+    "imgAlt": "Picture of Glazed with KREME Filling",
     "id": "glazed-with-kreme-filling",
     "types": [
       "Filled",
@@ -393,10 +393,10 @@
     "description": "The classic cake doughnut is simple and a little less sweet than its fellow doughnuts. Moist and rich, sometimes simple is all you need."
   },
   {
-    "title": " Chocolate Iced Glazed Cruller",
+    "title": "Chocolate Iced Glazed Cruller",
     "url": "https://www.krispykreme.com/menu/doughnuts/chocolate-iced-glazed-cruller",
     "img": "/images/chocolate-iced-glazed-cruller.jpg",
-    "imgAlt": "Picture of  Chocolate Iced Glazed Cruller",
+    "imgAlt": "Picture of Chocolate Iced Glazed Cruller",
     "id": "chocolate-iced-glazed-cruller",
     "types": [
       "Iced",
@@ -494,10 +494,10 @@
     "description": "Our classic Original Glazed® doughnut, dipped in maple flavored icing."
   },
   {
-    "title": "Mini Original Glazed<sup>®</sup> Doughnuts",
+    "title": "Mini Original Glazed Doughnuts",
     "url": "https://www.krispykreme.com/menu/doughnuts/mini-original-glazed-doughnuts",
     "img": "/images/mini-original-glazed-doughnuts.jpg",
-    "imgAlt": "Picture of Mini Original Glazed<sup>®</sup> Doughnuts",
+    "imgAlt": "Picture of Mini Original Glazed Doughnuts",
     "id": "mini-original-glazed-doughnuts",
     "types": [
       "Glazed",
@@ -668,10 +668,10 @@
     "description": "The strawberry iced doughnut is a delicious treat and so pretty in pink."
   },
   {
-    "title": "Original Glazed<sup>®</sup> Doughnut Holes",
+    "title": "Original Glazed Doughnut Holes",
     "url": "https://www.krispykreme.com/menu/doughnuts/original-glazed-doughnut-holes",
     "img": "/images/original-glazed-doughnut-holes.jpg",
-    "imgAlt": "Picture of Original Glazed<sup>®</sup> Doughnut Holes",
+    "imgAlt": "Picture of Original Glazed Doughnut Holes",
     "id": "original-glazed-doughnut-holes",
     "types": [
       "Glazed",
