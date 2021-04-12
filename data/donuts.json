@@ -1,526 +1,731 @@
 [
-    {
-        "title": "Bunny Bum Mini",
-        "url": "https://www.krispykreme.com/menu/doughnuts/bunny-bum-mini",
-        "img": "/images/bunny-bum-mini.jpg",
-        "imgAlt": "Picture of Bunny Bum Mini",
-        "id": "bunny-bum-mini",
-        "types": [""],
-        "bannerUrl": "/images/bunny-bum-mini-banner.jpg",
-        "nutritionalFacts": "/images/bunny-bum-mini-facts.pdf",
-        "description": "An adorable Mini Original Glazed™ doughnut, dipped in green icing, topped with green sprinkles, with a dollop of Original Kreme and two bunny feet sugar pieces "
-    },
-    {
-        "title": "Spring Chick Mini",
-        "url": "https://www.krispykreme.com/menu/doughnuts/spring-chick-mini",
-        "img": "/images/spring-chick-mini.jpg",
-        "imgAlt": "Picture of Spring Chick Mini",
-        "id": "spring-chick-mini",
-        "types": ["Iced"],
-        "bannerUrl": "/images/spring-chick-mini-banner.jpg",
-        "nutritionalFacts": "/images/spring-chick-mini-facts.pdf",
-        "description": "A precious Mini Original Glazed™ doughnut, dipped in yellow icing and decorated with orange and chocolate icing to resemble a chick. "
-    },
-    {
-        "title": "Flower Mini",
-        "url": "https://www.krispykreme.com/menu/doughnuts/flower-mini",
-        "img": "/images/flower-mini.jpg",
-        "imgAlt": "Picture of Flower Mini",
-        "id": "flower-mini",
-        "types": ["Iced"],
-        "bannerUrl": "/images/flower-mini-banner.jpg",
-        "nutritionalFacts": "/images/flower-mini-facts.pdf",
-        "description": "A beautiful blooming Mini Original Glazed™ doughnut, dipped in strawberry icing with lavender and pink sanding sugar and hand decorated as a flower. "
-    },
-    {
-        "title": "Chocolate Iced with Spring Sprinkles Mini",
-        "url": "https://www.krispykreme.com/menu/doughnuts/chocolate-iced-with-spring-sprinkles-mini",
-        "img": "/images/chocolate-iced-with-spring-sprinkles-mini.jpg",
-        "imgAlt": "Picture of Chocolate Iced with Spring Sprinkles Mini",
-        "id": "chocolate-iced-with-spring-sprinkles-mini",
-        "types": ["Iced"],
-        "bannerUrl": "/images/chocolate-iced-with-spring-sprinkles-mini-banner.jpg",
-        "nutritionalFacts": "/images/chocolate-iced-with-spring-sprinkles-mini-facts.pdf",
-        "description": "A Mini Original Glazed™ doughnut, dipped in chocolate icing and topped with Spring sprinkles. "
-    },
-    {
-        "title": "Original Filled <br> Original Kreme™",
-        "url": "https://www.krispykreme.com/menu/doughnuts/original-filled-original-kreme™",
-        "img": "/images/original-filled-original-kreme™.jpg",
-        "imgAlt": "Picture of Original Filled </br> Original Kreme™",
-        "id": "original-filled-original-kreme™",
-        "types": ["Iced", "Filled"],
-        "bannerUrl": "/images/original-filled-original-kreme™-banner.jpg",
-        "nutritionalFacts": "/images/original-filled-original-kreme™-facts.pdf",
-        "description": "Original Filled, Original Kreme™ Doughnut:  Our iconic Original Glazed®  Doughnut filled with classic White Kreme™ and decorated with an icing drizzle. "
-    },
-    {
-        "title": "Original Filled Chocolate Kreme™",
-        "url": "https://www.krispykreme.com/menu/doughnuts/original-filled-chocolate-kreme™",
-        "img": "/images/original-filled-chocolate-kreme™.jpg",
-        "imgAlt": "Picture of Original Filled Chocolate Kreme™",
-        "id": "original-filled-chocolate-kreme™",
-        "types": ["Iced", "Chocolate", "Filled"],
-        "bannerUrl": "/images/original-filled-chocolate-kreme™-banner.jpg",
-        "nutritionalFacts": "/images/original-filled-chocolate-kreme™-facts.pdf",
-        "description": "Original Filled, Chocolate Kreme™ Doughnut:  Our iconic Original Glazed®  Doughnut filled with Chocolate Kreme™ and decorated with a chocolate icing drizzle."
-    },
-    {
-        "title": "Original Glazed<sup>®</sup>",
-        "url": "https://www.krispykreme.com/menu/doughnuts/original-glazed-doughnut",
-        "img": "/images/original-glazed-doughnut.jpg",
-        "imgAlt": "Picture of Original Glazed<sup>®</sup>",
-        "id": "original-glazed-doughnut",
-        "types": ["Glazed"],
-        "bannerUrl": "/images/original-glazed-doughnut-banner.jpg",
-        "nutritionalFacts": "/images/original-glazed-doughnut-facts.pdf",
-        "description": "Look out for the Hot Light™! Our Hot Light signals something really special. When we turn the light on, it means that our delicious Original Glazed® Doughnuts are available right at that very moment! So when you see the Hot Light on, stop in and get some hot Original Glazed® doughnuts."
-    },
-    {
-        "title": "Chocolate Iced Glazed",
-        "url": "https://www.krispykreme.com/menu/doughnuts/chocolate-iced-glazed",
-        "img": "/images/chocolate-iced-glazed.jpg",
-        "imgAlt": "Picture of Chocolate Iced Glazed",
-        "id": "chocolate-iced-glazed",
-        "types": ["Iced", "Chocolate", "Glazed"],
-        "bannerUrl": "/images/chocolate-iced-glazed-banner.jpg",
-        "nutritionalFacts": "/images/chocolate-iced-glazed-facts.pdf",
-        "description": "Chocolate lovers take note! We take our Original Glazed® doughnut one simple, yet delicious, step further by hand-dipping it in smooth, delectable chocolate icing. "
-    },
-    {
-        "title": "Chocolate Iced Glazed with Sprinkles",
-        "url": "https://www.krispykreme.com/menu/doughnuts/chocolate-iced-glazed-with-sprinkles",
-        "img": "/images/chocolate-iced-glazed-with-sprinkles.jpg",
-        "imgAlt": "Picture of Chocolate Iced Glazed with Sprinkles",
-        "id": "chocolate-iced-glazed-with-sprinkles",
-        "types": ["Iced", "Toppings", "Chocolate", "Glazed"],
-        "bannerUrl": "/images/chocolate-iced-glazed-with-sprinkles-banner.jpg",
-        "nutritionalFacts": "/images/chocolate-iced-glazed-with-sprinkles-facts.pdf",
-        "description": "Our Original Glazed® ring is dipped in chocolate icing and then topped with colorful sprinkles."
-    },
-    {
-        "title": "OREO<sup>®</sup> Cookies and KREME",
-        "url": "https://www.krispykreme.com/menu/doughnuts/oreo-cookies-and-kreme",
-        "img": "/images/oreo-cookies-and-kreme.jpg",
-        "imgAlt": "Picture of OREO<sup>®</sup> Cookies and KREME",
-        "id": "oreo-cookies-and-kreme",
-        "types": ["Iced", "Toppings", "Filled", "OtherVarieties"],
-        "bannerUrl": "/images/oreo-cookies-and-kreme-banner.jpg",
-        "nutritionalFacts": "/images/oreo-cookies-and-kreme-facts.pdf",
-        "description": "Our OREO® Cookies and Kreme Doughnut is a fan favorite! Filled with OREO Cookies and Kreme filling, dipped in dark chocolate icing and topped with OREO cookie pieces. You don't want to miss this."
-    },
-    {
-        "title": "Chocolate Iced with KREME<sup>™</sup> Filling",
-        "url": "https://www.krispykreme.com/menu/doughnuts/chocolate-iced-with-kreme-filling",
-        "img": "/images/chocolate-iced-with-kreme-filling.jpg",
-        "imgAlt": "Picture of Chocolate Iced with KREME<sup>™</sup> Filling",
-        "id": "chocolate-iced-with-kreme-filling",
-        "types": ["Iced", "Chocolate", "Filled"],
-        "bannerUrl": "/images/chocolate-iced-with-kreme-filling-banner.jpg",
-        "nutritionalFacts": "/images/chocolate-iced-with-kreme-filling-facts.pdf",
-        "description": "A favorite of many, this yummy variety is filled with our light and smooth KREME™ filling. It is then dipped in our classic chocolate icing to create a delectably balanced treat."
-    },
-    {
-        "title": "Cake Batter",
-        "url": "https://www.krispykreme.com/menu/doughnuts/cake-batter-doughnut",
-        "img": "/images/cake-batter-doughnut.jpg",
-        "imgAlt": "Picture of Cake Batter",
-        "id": "cake-batter-doughnut",
-        "types": ["Iced", "Toppings", "Filled", "OtherVarieties"],
-        "bannerUrl": "/images/cake-batter-doughnut-banner.jpg",
-        "nutritionalFacts": "/images/cake-batter-doughnut-facts.pdf",
-        "description": "We love celebrating birthdays every day with a scrumptious cake batter doughnut. Filled with cake batter KREME, topped with yellow icing and bright confetti sprinkles, this doughnut is perfect for any party."
-    },
-    {
-        "title": "Chocolate Iced Custard Filled",
-        "url": "https://www.krispykreme.com/menu/doughnuts/chocolate-iced-custard-filled",
-        "img": "/images/chocolate-iced-custard-filled.jpg",
-        "imgAlt": "Picture of Chocolate Iced Custard Filled",
-        "id": "chocolate-iced-custard-filled",
-        "types": ["Iced", "Chocolate", "Filled"],
-        "bannerUrl": "/images/chocolate-iced-custard-filled-banner.jpg",
-        "nutritionalFacts": "/images/chocolate-iced-custard-filled-facts.pdf",
-        "description": "This doughnut is filled with creamy custard and hand-dipped in rich chocolate icing. Yum!"
-    },
-    {
-        "title": "Glazed Raspberry Filled",
-        "url": "https://www.krispykreme.com/menu/doughnuts/glazed-raspberry-filled",
-        "img": "/images/glazed-raspberry-filled.jpg",
-        "imgAlt": "Picture of Glazed Raspberry Filled",
-        "id": "glazed-raspberry-filled",
-        "types": ["Filled", "Glazed", "Fruit"],
-        "bannerUrl": "/images/glazed-raspberry-filled-banner.jpg",
-        "nutritionalFacts": "/images/glazed-raspberry-filled-facts.pdf",
-        "description": "This scrumptious doughnut is glazed and then filled with a sweet and tangy balanced raspberry jelly."
-    },
-    {
-        "title": "Glazed Lemon Filled",
-        "url": "https://www.krispykreme.com/menu/doughnuts/glazed-lemon-filled",
-        "img": "/images/glazed-lemon-filled.jpg",
-        "imgAlt": "Picture of Glazed Lemon Filled",
-        "id": "glazed-lemon-filled",
-        "types": ["Filled", "Glazed", "Fruit"],
-        "bannerUrl": "/images/glazed-lemon-filled-banner.jpg",
-        "nutritionalFacts": "/images/glazed-lemon-filled-facts.pdf",
-        "description": "Bursting with lemon filling and topped with our signature Original Glaze, our lemon filled doughnut is sure to brighten your taste buds."
-    },
-    {
-        "title": "Strawberry Iced with Sprinkles",
-        "url": "https://www.krispykreme.com/menu/doughnuts/strawberry-iced-with-sprinkles",
-        "img": "/images/strawberry-iced-with-sprinkles.jpg",
-        "imgAlt": "Picture of Strawberry Iced with Sprinkles",
-        "id": "strawberry-iced-with-sprinkles",
-        "types": ["Toppings", "Fruit"],
-        "bannerUrl": "/images/strawberry-iced-with-sprinkles-banner.jpg",
-        "nutritionalFacts": "/images/strawberry-iced-with-sprinkles-facts.pdf",
-        "description": "Our Original Glazed® Doughnut is dipped in strawberry icing and topped with festive rainbow sprinkles."
-    },
-    {
-        "title": "Apple Fritter",
-        "url": "https://www.krispykreme.com/menu/doughnuts/apple-fritter",
-        "img": "/images/apple-fritter.jpg",
-        "imgAlt": "Picture of Apple Fritter",
-        "id": "apple-fritter",
-        "types": ["Glazed", "Fruit", "OtherVarieties"],
-        "bannerUrl": "/images/apple-fritter-banner.jpg",
-        "nutritionalFacts": "/images/apple-fritter-facts.pdf",
-        "description": "Apple Fritters are a classic. Ours is bursting with cinnamon and apple flavor, all covered in glaze."
-    },
-    {
-        "title": "Glazed with KREME<sup>™</sup>  Filling",
-        "url": "https://www.krispykreme.com/menu/doughnuts/glazed-with-kreme-filling",
-        "img": "/images/glazed-with-kreme-filling.jpg",
-        "imgAlt": "Picture of Glazed with KREME<sup>™</sup>  Filling",
-        "id": "glazed-with-kreme-filling",
-        "types": ["Filled", "Glazed"],
-        "bannerUrl": "/images/glazed-with-kreme-filling-banner.jpg",
-        "nutritionalFacts": "/images/glazed-with-kreme-filling-facts.pdf",
-        "description": "This yeast raised shell is glazed and then filled with delicious KREME."
-    },
-    {
-        "title": "Chocolate Iced Cake",
-        "url": "https://www.krispykreme.com/menu/doughnuts/chocolate-iced-cake",
-        "img": "/images/chocolate-iced-cake.jpg",
-        "imgAlt": "Picture of Chocolate Iced Cake",
-        "id": "chocolate-iced-cake",
-        "types": ["Iced", "Cake", "Chocolate"],
-        "bannerUrl": "/images/chocolate-iced-cake-banner.jpg",
-        "nutritionalFacts": "/images/chocolate-iced-cake-facts.pdf",
-        "description": "Our Traditional Cake doughnut is hand-dipped in decadent chocolate icing."
-    },
-    {
-        "title": "Chocolate Iced Raspberry Filled",
-        "url": "https://www.krispykreme.com/menu/doughnuts/chocolate-iced-raspberry-filled",
-        "img": "/images/chocolate-iced-raspberry-filled.jpg",
-        "imgAlt": "Picture of Chocolate Iced Raspberry Filled",
-        "id": "chocolate-iced-raspberry-filled",
-        "types": [
-            "Iced",
-            "Toppings",
-            "Chocolate",
-            "Filled",
-            "Fruit",
-            "OtherVarieties"
-        ],
-        "bannerUrl": "/images/chocolate-iced-raspberry-filled-banner.jpg",
-        "nutritionalFacts": "/images/chocolate-iced-raspberry-filled-facts.pdf",
-        "description": "Filled with sweet raspberry jelly, this scrumptious doughnut is topped with chocolate icing and a delicate red swirl."
-    },
-    {
-        "title": "Glazed Chocolate Cake",
-        "url": "https://www.krispykreme.com/menu/doughnuts/glazed-chocolate-cake",
-        "img": "/images/glazed-chocolate-cake.jpg",
-        "imgAlt": "Picture of Glazed Chocolate Cake",
-        "id": "glazed-chocolate-cake",
-        "types": ["Cake", "Chocolate", "Glazed"],
-        "bannerUrl": "/images/glazed-chocolate-cake-banner.jpg",
-        "nutritionalFacts": "/images/glazed-chocolate-cake-facts.pdf",
-        "description": "If you love chocolate cake then you love this doughnut. It is rich, moist and full of chocolate flavor. We then top it off with our signature glaze."
-    },
-    {
-        "title": "Glazed Blueberry Cake",
-        "url": "https://www.krispykreme.com/menu/doughnuts/glazed-blueberry-cake",
-        "img": "/images/glazed-blueberry-cake.jpg",
-        "imgAlt": "Picture of Glazed Blueberry Cake",
-        "id": "glazed-blueberry-cake",
-        "types": ["Cake", "Glazed", "Fruit"],
-        "bannerUrl": "/images/glazed-blueberry-cake-banner.jpg",
-        "nutritionalFacts": "/images/glazed-blueberry-cake-facts.pdf",
-        "description": "This classic cake doughnut is bursting with blueberry flavor and then glazed to create an irresistible flavor combination. "
-    },
-    {
-        "title": "Cinnamon Apple Filled",
-        "url": "https://www.krispykreme.com/menu/doughnuts/cinnamon-apple-filled",
-        "img": "/images/cinnamon-apple-filled.jpg",
-        "imgAlt": "Picture of Cinnamon Apple Filled",
-        "id": "cinnamon-apple-filled",
-        "types": ["Filled", "Fruit"],
-        "bannerUrl": "/images/cinnamon-apple-filled-banner.jpg",
-        "nutritionalFacts": "/images/cinnamon-apple-filled-facts.pdf",
-        "description": "Inspired by classic apple pie, this doughnut is filled with cinnamon apple compote. It then is tossed in a cinnamon sugar topping to incorporate the flavor throughout."
-    },
-    {
-        "title": "Cinnamon Bun",
-        "url": "https://www.krispykreme.com/menu/doughnuts/cinnamon-bun",
-        "img": "/images/cinnamon-bun.jpg",
-        "imgAlt": "Picture of Cinnamon Bun",
-        "id": "cinnamon-bun",
-        "types": ["Glazed", "OtherVarieties"],
-        "bannerUrl": "/images/cinnamon-bun-banner.jpg",
-        "nutritionalFacts": "/images/cinnamon-bun-facts.pdf",
-        "description": "Who doesn’t love a cinnamon bun? Tempt your taste buds with our cinnamon dough topped with our signature glaze."
-    },
-    {
-        "title": "Cinnamon Sugar",
-        "url": "https://www.krispykreme.com/menu/doughnuts/cinnamon-sugar",
-        "img": "/images/cinnamon-sugar.jpg",
-        "imgAlt": "Picture of Cinnamon Sugar",
-        "id": "cinnamon-sugar",
-        "types": ["Toppings", "OtherVarieties"],
-        "bannerUrl": "/images/cinnamon-sugar-banner.jpg",
-        "nutritionalFacts": "/images/cinnamon-sugar-facts.pdf",
-        "description": "Our classic ring is tossed in cinnamon sugar for a perfectly simple treat."
-    },
-    {
-        "title": "Glazed Sour Cream",
-        "url": "https://www.krispykreme.com/menu/doughnuts/glazed-sour-cream",
-        "img": "/images/glazed-sour-cream.jpg",
-        "imgAlt": "Picture of Glazed Sour Cream",
-        "id": "glazed-sour-cream",
-        "types": ["Cake", "Glazed"],
-        "bannerUrl": "/images/glazed-sour-cream-banner.jpg",
-        "nutritionalFacts": "/images/glazed-sour-cream-facts.pdf",
-        "description": "This rich and moist cake doughnut is topped with Original Glaze, providing the perfect finishing touch to a scrumptious classic."
-    },
-    {
-        "title": "Traditional Cake",
-        "url": "https://www.krispykreme.com/menu/doughnuts/traditional-cake",
-        "img": "/images/traditional-cake.jpg",
-        "imgAlt": "Picture of Traditional Cake",
-        "id": "traditional-cake",
-        "types": ["Cake"],
-        "bannerUrl": "/images/traditional-cake-banner.jpg",
-        "nutritionalFacts": "/images/traditional-cake-facts.pdf",
-        "description": "The classic cake doughnut is simple and a little less sweet than its fellow doughnuts. Moist and rich, sometimes simple is all you need."
-    },
-    {
-        "title": " Chocolate Iced Glazed Cruller",
-        "url": "https://www.krispykreme.com/menu/doughnuts/chocolate-iced-glazed-cruller",
-        "img": "/images/chocolate-iced-glazed-cruller.jpg",
-        "imgAlt": "Picture of  Chocolate Iced Glazed Cruller",
-        "id": "chocolate-iced-glazed-cruller",
-        "types": ["Iced", "Cake", "Chocolate", "Glazed"],
-        "bannerUrl": "/images/chocolate-iced-glazed-cruller-banner.jpg",
-        "nutritionalFacts": "/images/chocolate-iced-glazed-cruller-facts.pdf",
-        "description": "We cut our cake into a cruller and send it sailing through the glaze waterfall. We then finish it into our decadent chocolate icing."
-    },
-    {
-        "title": "Cinnamon Twist",
-        "url": "https://www.krispykreme.com/menu/doughnuts/cinnamon-twist",
-        "img": "/images/cinnamon-twist.jpg",
-        "imgAlt": "Picture of Cinnamon Twist",
-        "id": "cinnamon-twist",
-        "types": ["OtherVarieties"],
-        "bannerUrl": "/images/cinnamon-twist-banner.jpg",
-        "nutritionalFacts": "/images/cinnamon-twist-facts.pdf",
-        "description": "A heavenly twist to an old favorite - our yeast-raised doughnut is shaped by hand into a twist, then completely covered in cinnamon sugar! "
-    },
-    {
-        "title": "Double Dark Chocolate",
-        "url": "https://www.krispykreme.com/menu/doughnuts/double-dark-chocolate",
-        "img": "/images/double-dark-chocolate.jpg",
-        "imgAlt": "Picture of Double Dark Chocolate",
-        "id": "double-dark-chocolate",
-        "types": ["Iced", "Chocolate", "Filled", "OtherVarieties"],
-        "bannerUrl": "/images/double-dark-chocolate-banner.jpg",
-        "nutritionalFacts": "/images/double-dark-chocolate-facts.pdf",
-        "description": ""
-    },
-    {
-        "title": "Dulce De Leche",
-        "url": "https://www.krispykreme.com/menu/doughnuts/dulce-de-leche",
-        "img": "/images/dulce-de-leche.jpg",
-        "imgAlt": "Picture of Dulce De Leche",
-        "id": "dulce-de-leche",
-        "types": ["Toppings", "Filled"],
-        "bannerUrl": "/images/dulce-de-leche-banner.jpg",
-        "nutritionalFacts": "/images/dulce-de-leche-facts.pdf",
-        "description": "Dulce de leche originated south of the border - a rich and creamy caramel-flavored treat. Its deliciousness inspired our Dulce de Leche doughnut. Thick dulce de leche filling is inside; crunchy, granulated sugar coats the outside."
-    },
-    {
-        "title": "Glazed Cinnamon",
-        "url": "https://www.krispykreme.com/menu/doughnuts/glazed-cinnamon",
-        "img": "/images/glazed-cinnamon.jpg",
-        "imgAlt": "Picture of Glazed Cinnamon",
-        "id": "glazed-cinnamon",
-        "types": ["Toppings", "Glazed"],
-        "bannerUrl": "/images/glazed-cinnamon-banner.jpg",
-        "nutritionalFacts": "/images/glazed-cinnamon-facts.pdf",
-        "description": "There's something about cinnamon. It's reminiscent of Mom, cinnamon toast and good times at home. To recreate that feeling, try our Glazed Cinnamon doughnut - we've added just the right amount of cinnamon flavor to a yeast-raised doughnut, sent it sailing through our signature glaze waterfall and finish it off with a dusting of powered cinnamon sugar. "
-    },
-    {
-        "title": "Glazed Cruller",
-        "url": "https://www.krispykreme.com/menu/doughnuts/glazed-cruller",
-        "img": "/images/glazed-cruller.jpg",
-        "imgAlt": "Picture of Glazed Cruller",
-        "id": "glazed-cruller",
-        "types": ["Cake", "Glazed"],
-        "bannerUrl": "/images/glazed-cruller-banner.jpg",
-        "nutritionalFacts": "/images/glazed-cruller-facts.pdf",
-        "description": "Rich and moist, our cruller is an enticing twist on our classic cake doughnut. And, of course, it's finished off with our uniquely delicious signature glaze."
-    },
-    {
-        "title": "Maple Iced Glazed",
-        "url": "https://www.krispykreme.com/menu/doughnuts/maple-iced-glazed",
-        "img": "/images/maple-iced-glazed.jpg",
-        "imgAlt": "Picture of Maple Iced Glazed",
-        "id": "maple-iced-glazed",
-        "types": ["Iced", "Glazed"],
-        "bannerUrl": "/images/maple-iced-glazed-banner.jpg",
-        "nutritionalFacts": "/images/maple-iced-glazed-facts.pdf",
-        "description": "Our classic Original Glazed® doughnut, dipped in maple flavored icing."
-    },
-    {
-        "title": "Mini Original Glazed<sup>®</sup> Doughnuts",
-        "url": "https://www.krispykreme.com/menu/doughnuts/mini-original-glazed-doughnuts",
-        "img": "/images/mini-original-glazed-doughnuts.jpg",
-        "imgAlt": "Picture of Mini Original Glazed<sup>®</sup> Doughnuts",
-        "id": "mini-original-glazed-doughnuts",
-        "types": ["Glazed", "OtherVarieties"],
-        "bannerUrl": "/images/mini-original-glazed-doughnuts-banner.jpg",
-        "nutritionalFacts": "/images/mini-original-glazed-doughnuts-facts.pdf",
-        "description": "Same great taste and flavor as the full-sized Original Glazed® Doughnut, just a little smaller."
-    },
-    {
-        "title": "New York Cheesecake",
-        "url": "https://www.krispykreme.com/menu/doughnuts/new-york-cheesecake",
-        "img": "/images/new-york-cheesecake.jpg",
-        "imgAlt": "Picture of New York Cheesecake",
-        "id": "new-york-cheesecake",
-        "types": ["Iced", "Toppings", "Filled"],
-        "bannerUrl": "/images/new-york-cheesecake-banner.jpg",
-        "nutritionalFacts": "/images/new-york-cheesecake-facts.pdf",
-        "description": "Our version of this popular dessert is filled with rich, creamy cheesecake filling, topped with cream cheese icing and sprinkled with crunchy graham."
-    },
-    {
-        "title": "Powdered Blueberry Filled",
-        "url": "https://www.krispykreme.com/menu/doughnuts/powdered-blueberry-filled",
-        "img": "/images/powdered-blueberry-filled.jpg",
-        "imgAlt": "Picture of Powdered Blueberry Filled",
-        "id": "powdered-blueberry-filled",
-        "types": ["Filled", "Fruit"],
-        "bannerUrl": "/images/powdered-blueberry-filled-banner.jpg",
-        "nutritionalFacts": "/images/powdered-blueberry-filled-facts.pdf",
-        "description": "A yeast-raised doughnut shell jam-packed with blueberry filing and coated with a light dusting of powdered sugar."
-    },
-    {
-        "title": "Powdered Cake",
-        "url": "https://www.krispykreme.com/menu/doughnuts/powdered-cake",
-        "img": "/images/powdered-cake.jpg",
-        "imgAlt": "Picture of Powdered Cake",
-        "id": "powdered-cake",
-        "types": ["Cake"],
-        "bannerUrl": "/images/powdered-cake-banner.jpg",
-        "nutritionalFacts": "/images/powdered-cake-facts.pdf",
-        "description": "Another classic - This rich and moist traditional cake is covered in powdered sugar. It is worth the mess!"
-    },
-    {
-        "title": "Powdered Cinnamon Cake",
-        "url": "https://www.krispykreme.com/menu/doughnuts/powdered-cinnamon-cake",
-        "img": "/images/powdered-cinnamon-cake.jpg",
-        "imgAlt": "Picture of Powdered Cinnamon Cake",
-        "id": "powdered-cinnamon-cake",
-        "types": ["Cake"],
-        "bannerUrl": "/images/powdered-cinnamon-cake-banner.jpg",
-        "nutritionalFacts": "/images/powdered-cinnamon-cake-facts.pdf",
-        "description": "Our traditional cake, tossed in powdered cinnamon."
-    },
-    {
-        "title": "Powdered Strawberry Filled",
-        "url": "https://www.krispykreme.com/menu/doughnuts/powdered-strawberry-filled",
-        "img": "/images/powdered-strawberry-filled.jpg",
-        "imgAlt": "Picture of Powdered Strawberry Filled",
-        "id": "powdered-strawberry-filled",
-        "types": ["Toppings", "Filled", "Fruit"],
-        "bannerUrl": "/images/powdered-strawberry-filled-banner.jpg",
-        "nutritionalFacts": "/images/powdered-strawberry-filled-facts.pdf",
-        "description": "Full of flavor, this doughnut is jam-packed with strawberry filling and dusted in powdered sugar."
-    },
-    {
-        "title": "Powdered with Lemon Kreme",
-        "url": "https://www.krispykreme.com/menu/doughnuts/powdered-with-lemon-kreme",
-        "img": "/images/powdered-with-lemon-kreme.jpg",
-        "imgAlt": "Picture of Powdered with Lemon Kreme",
-        "id": "powdered-with-lemon-kreme",
-        "types": ["Toppings", "Filled", "Fruit"],
-        "bannerUrl": "/images/powdered-with-lemon-kreme-banner.jpg",
-        "nutritionalFacts": "/images/powdered-with-lemon-kreme-facts.pdf",
-        "description": "A powdered shell filled with tasty lemon kreme."
-    },
-    {
-        "title": "Powdered with Strawberry Kreme",
-        "url": "https://www.krispykreme.com/menu/doughnuts/powdered-with-strawberry-kreme",
-        "img": "/images/powdered-with-strawberry-kreme.jpg",
-        "imgAlt": "Picture of Powdered with Strawberry Kreme",
-        "id": "powdered-with-strawberry-kreme",
-        "types": ["Filled", "Fruit"],
-        "bannerUrl": "/images/powdered-with-strawberry-kreme-banner.jpg",
-        "nutritionalFacts": "/images/powdered-with-strawberry-kreme-facts.pdf",
-        "description": "A powdered shell filled with sweet, strawberry kreme."
-    },
-    {
-        "title": "Strawberry Iced",
-        "url": "https://www.krispykreme.com/menu/doughnuts/strawberry-iced",
-        "img": "/images/strawberry-iced.jpg",
-        "imgAlt": "Picture of Strawberry Iced",
-        "id": "strawberry-iced",
-        "types": ["Iced", "Glazed", "Fruit"],
-        "bannerUrl": "/images/strawberry-iced-banner.jpg",
-        "nutritionalFacts": "/images/strawberry-iced-facts.pdf",
-        "description": "The strawberry iced doughnut is a delicious treat and so pretty in pink."
-    },
-    {
-        "title": "Original Glazed<sup>®</sup> Doughnut Holes",
-        "url": "https://www.krispykreme.com/menu/doughnuts/original-glazed-doughnut-holes",
-        "img": "/images/original-glazed-doughnut-holes.jpg",
-        "imgAlt": "Picture of Original Glazed<sup>®</sup> Doughnut Holes",
-        "id": "original-glazed-doughnut-holes",
-        "types": ["Glazed", "OtherVarieties"],
-        "bannerUrl": "/images/original-glazed-doughnut-holes-banner.jpg",
-        "nutritionalFacts": "/images/original-glazed-doughnut-holes-facts.pdf",
-        "description": "We've taken our Original Glazed® Doughnuts and created tasty, on the go treats for sharing."
-    },
-    {
-        "title": "Glazed Cake Doughnut Holes",
-        "url": "https://www.krispykreme.com/menu/doughnuts/glazed-cake-doughnut-holes",
-        "img": "/images/glazed-cake-doughnut-holes.jpg",
-        "imgAlt": "Picture of Glazed Cake Doughnut Holes",
-        "id": "glazed-cake-doughnut-holes",
-        "types": ["Cake", "Glazed", "OtherVarieties"],
-        "bannerUrl": "/images/glazed-cake-doughnut-holes-banner.jpg",
-        "nutritionalFacts": "/images/glazed-cake-doughnut-holes-facts.pdf",
-        "description": "Glazed Cake Doughnut Holes. Perfect for sharing! (varies by location)"
-    },
-    {
-        "title": "Glazed Blueberry Cake Doughnut Holes",
-        "url": "https://www.krispykreme.com/menu/doughnuts/glazed-blueberry-cake-doughnut-holes",
-        "img": "/images/glazed-blueberry-cake-doughnut-holes.jpg",
-        "imgAlt": "Picture of Glazed Blueberry Cake Doughnut Holes",
-        "id": "glazed-blueberry-cake-doughnut-holes",
-        "types": ["Cake", "Glazed", "Fruit", "OtherVarieties"],
-        "bannerUrl": "/images/glazed-blueberry-cake-doughnut-holes-banner.jpg",
-        "nutritionalFacts": "/images/glazed-blueberry-cake-doughnut-holes-facts.pdf",
-        "description": "Glazed Blueberry Cake Doughnut Holes. Perfect for sharing! (varies by location)"
-    },
-    {
-        "title": "Glazed Chocolate Cake Doughnut Holes",
-        "url": "https://www.krispykreme.com/menu/doughnuts/glazed-chocolate-cake-doughnut-holes",
-        "img": "/images/glazed-chocolate-cake-doughnut-holes.jpg",
-        "imgAlt": "Picture of Glazed Chocolate Cake Doughnut Holes",
-        "id": "glazed-chocolate-cake-doughnut-holes",
-        "types": ["Cake", "Chocolate", "Glazed", "OtherVarieties"],
-        "bannerUrl": "/images/glazed-chocolate-cake-doughnut-holes-banner.jpg",
-        "nutritionalFacts": "/images/glazed-chocolate-cake-doughnut-holes-facts.pdf",
-        "description": "Glazed Chocolate Cake Doughnut Holes. Perfect for sharing! (varies by location)"
-    }
+  {
+    "title": "OREO® Cookie Glazed Doughnut",
+    "url": "https://www.krispykreme.com/menu/doughnuts/oreo®-cookie-glazed-doughnut",
+    "img": "/images/oreo®-cookie-glazed-doughnut.jpg",
+    "imgAlt": "Picture of OREO® Cookie Glazed Doughnut",
+    "id": "oreo®-cookie-glazed-doughnut",
+    "types": [
+      "Toppings"
+    ],
+    "bannerUrl": "/images/oreo®-cookie-glazed-doughnut-banner.jpg",
+    "nutritionalFacts": "/images/oreo®-cookie-glazed-doughnut-facts.pdf",
+    "description": "The Original Glazed® Doughnut covered in rich OREO® Cookie Glaze, filled with Cookies and KREME™, and finished with an icing drizzle and OREO® Cookie pieces."
+  },
+  {
+    "title": "OREO® Cookie Over-the-Top Doughnut",
+    "url": "https://www.krispykreme.com/menu/doughnuts/oreo®-cookie-over-the-top-doughnut",
+    "img": "/images/oreo®-cookie-over-the-top-doughnut.jpg",
+    "imgAlt": "Picture of OREO® Cookie Over-the-Top Doughnut",
+    "id": "oreo®-cookie-over-the-top-doughnut",
+    "types": [
+      "Toppings"
+    ],
+    "bannerUrl": "/images/oreo®-cookie-over-the-top-doughnut-banner.jpg",
+    "nutritionalFacts": "/images/oreo®-cookie-over-the-top-doughnut-facts.pdf",
+    "description": "An OREO® Cookie Glazed Doughnut topped with Cookies and KREME™ filling, drizzled with chocolate icing and finished with an OREO® Cookie wafer."
+  },
+  {
+    "title": "REESE’S Classic Doughnut",
+    "url": "https://www.krispykreme.com/menu/doughnuts/reese-s-classic",
+    "img": "/images/reese-s-classic.jpg",
+    "imgAlt": "Picture of REESE’S Classic Doughnut",
+    "id": "reese-s-classic",
+    "types": [
+      "Filled"
+    ],
+    "bannerUrl": "/images/reese-s-classic-banner.jpg",
+    "nutritionalFacts": "/images/reese-s-classic-facts.pdf",
+    "description": "A doughnut filled with REESE’S Peanut Butter Kreme™, dipped in HERSHEY’S chocolate icing, topped with mini peanut butter chips and a drizzle of chocolate and REESE’S peanut butter sauce. "
+  },
+  {
+    "title": "Original Filled <br> Original Kreme™",
+    "url": "https://www.krispykreme.com/menu/doughnuts/original-filled-original-kreme™",
+    "img": "/images/original-filled-original-kreme™.jpg",
+    "imgAlt": "Picture of Original Filled </br> Original Kreme™",
+    "id": "original-filled-original-kreme™",
+    "types": [
+      "Iced",
+      "Filled"
+    ],
+    "bannerUrl": "/images/original-filled-original-kreme™-banner.jpg",
+    "nutritionalFacts": "/images/original-filled-original-kreme™-facts.pdf",
+    "description": "Original Filled, Original Kreme™ Doughnut:  Our iconic Original Glazed®  Doughnut filled with classic White Kreme™ and decorated with an icing drizzle. "
+  },
+  {
+    "title": "Original Filled Chocolate Kreme™",
+    "url": "https://www.krispykreme.com/menu/doughnuts/original-filled-chocolate-kreme™",
+    "img": "/images/original-filled-chocolate-kreme™.jpg",
+    "imgAlt": "Picture of Original Filled Chocolate Kreme™",
+    "id": "original-filled-chocolate-kreme™",
+    "types": [
+      "Iced",
+      "Chocolate",
+      "Filled"
+    ],
+    "bannerUrl": "/images/original-filled-chocolate-kreme™-banner.jpg",
+    "nutritionalFacts": "/images/original-filled-chocolate-kreme™-facts.pdf",
+    "description": "Original Filled, Chocolate Kreme™ Doughnut:  Our iconic Original Glazed®  Doughnut filled with Chocolate Kreme™ and decorated with a chocolate icing drizzle."
+  },
+  {
+    "title": "Original Glazed<sup>®</sup>",
+    "url": "https://www.krispykreme.com/menu/doughnuts/original-glazed-doughnut",
+    "img": "/images/original-glazed-doughnut.jpg",
+    "imgAlt": "Picture of Original Glazed<sup>®</sup>",
+    "id": "original-glazed-doughnut",
+    "types": [
+      "Glazed"
+    ],
+    "bannerUrl": "/images/original-glazed-doughnut-banner.jpg",
+    "nutritionalFacts": "/images/original-glazed-doughnut-facts.pdf",
+    "description": "Look out for the Hot Light™! Our Hot Light signals something really special. When we turn the light on, it means that our delicious Original Glazed® Doughnuts are available right at that very moment! So when you see the Hot Light on, stop in and get some hot Original Glazed® doughnuts."
+  },
+  {
+    "title": "Chocolate Iced Glazed",
+    "url": "https://www.krispykreme.com/menu/doughnuts/chocolate-iced-glazed",
+    "img": "/images/chocolate-iced-glazed.jpg",
+    "imgAlt": "Picture of Chocolate Iced Glazed",
+    "id": "chocolate-iced-glazed",
+    "types": [
+      "Iced",
+      "Chocolate",
+      "Glazed"
+    ],
+    "bannerUrl": "/images/chocolate-iced-glazed-banner.jpg",
+    "nutritionalFacts": "/images/chocolate-iced-glazed-facts.pdf",
+    "description": "Chocolate lovers take note! We take our Original Glazed® doughnut one simple, yet delicious, step further by hand-dipping it in smooth, delectable chocolate icing."
+  },
+  {
+    "title": "Chocolate Iced Glazed with Sprinkles",
+    "url": "https://www.krispykreme.com/menu/doughnuts/chocolate-iced-glazed-with-sprinkles",
+    "img": "/images/chocolate-iced-glazed-with-sprinkles.jpg",
+    "imgAlt": "Picture of Chocolate Iced Glazed with Sprinkles",
+    "id": "chocolate-iced-glazed-with-sprinkles",
+    "types": [
+      "Iced",
+      "Toppings",
+      "Chocolate",
+      "Glazed"
+    ],
+    "bannerUrl": "/images/chocolate-iced-glazed-with-sprinkles-banner.jpg",
+    "nutritionalFacts": "/images/chocolate-iced-glazed-with-sprinkles-facts.pdf",
+    "description": "Our Original Glazed® ring is dipped in chocolate icing and then topped with colorful sprinkles."
+  },
+  {
+    "title": "OREO<sup>®</sup> Cookies and KREME",
+    "url": "https://www.krispykreme.com/menu/doughnuts/oreo-cookies-and-kreme",
+    "img": "/images/oreo-cookies-and-kreme.jpg",
+    "imgAlt": "Picture of OREO<sup>®</sup> Cookies and KREME",
+    "id": "oreo-cookies-and-kreme",
+    "types": [
+      "Iced",
+      "Toppings",
+      "Filled",
+      "OtherVarieties"
+    ],
+    "bannerUrl": "/images/oreo-cookies-and-kreme-banner.jpg",
+    "nutritionalFacts": "/images/oreo-cookies-and-kreme-facts.pdf",
+    "description": "Our OREO® Cookies and Kreme Doughnut is a fan favorite! Filled with OREO Cookies and Kreme filling, dipped in dark chocolate icing and topped with OREO cookie pieces. You don't want to miss this."
+  },
+  {
+    "title": "Chocolate Iced with KREME<sup>™</sup> Filling",
+    "url": "https://www.krispykreme.com/menu/doughnuts/chocolate-iced-with-kreme-filling",
+    "img": "/images/chocolate-iced-with-kreme-filling.jpg",
+    "imgAlt": "Picture of Chocolate Iced with KREME<sup>™</sup> Filling",
+    "id": "chocolate-iced-with-kreme-filling",
+    "types": [
+      "Iced",
+      "Chocolate",
+      "Filled"
+    ],
+    "bannerUrl": "/images/chocolate-iced-with-kreme-filling-banner.jpg",
+    "nutritionalFacts": "/images/chocolate-iced-with-kreme-filling-facts.pdf",
+    "description": "A favorite of many, this yummy variety is filled with our light and smooth KREME™ filling. It is then dipped in our classic chocolate icing to create a delectably balanced treat."
+  },
+  {
+    "title": "Cake Batter",
+    "url": "https://www.krispykreme.com/menu/doughnuts/cake-batter-doughnut",
+    "img": "/images/cake-batter-doughnut.jpg",
+    "imgAlt": "Picture of Cake Batter",
+    "id": "cake-batter-doughnut",
+    "types": [
+      "Iced",
+      "Toppings",
+      "Filled",
+      "OtherVarieties"
+    ],
+    "bannerUrl": "/images/cake-batter-doughnut-banner.jpg",
+    "nutritionalFacts": "/images/cake-batter-doughnut-facts.pdf",
+    "description": "We love celebrating birthdays every day with a scrumptious cake batter doughnut. Filled with cake batter KREME, topped with yellow icing and bright confetti sprinkles, this doughnut is perfect for any party."
+  },
+  {
+    "title": "Chocolate Iced Custard Filled",
+    "url": "https://www.krispykreme.com/menu/doughnuts/chocolate-iced-custard-filled",
+    "img": "/images/chocolate-iced-custard-filled.jpg",
+    "imgAlt": "Picture of Chocolate Iced Custard Filled",
+    "id": "chocolate-iced-custard-filled",
+    "types": [
+      "Iced",
+      "Chocolate",
+      "Filled"
+    ],
+    "bannerUrl": "/images/chocolate-iced-custard-filled-banner.jpg",
+    "nutritionalFacts": "/images/chocolate-iced-custard-filled-facts.pdf",
+    "description": "This doughnut is filled with creamy custard and hand-dipped in rich chocolate icing. Yum!"
+  },
+  {
+    "title": "Glazed Raspberry Filled",
+    "url": "https://www.krispykreme.com/menu/doughnuts/glazed-raspberry-filled",
+    "img": "/images/glazed-raspberry-filled.jpg",
+    "imgAlt": "Picture of Glazed Raspberry Filled",
+    "id": "glazed-raspberry-filled",
+    "types": [
+      "Filled",
+      "Glazed",
+      "Fruit"
+    ],
+    "bannerUrl": "/images/glazed-raspberry-filled-banner.jpg",
+    "nutritionalFacts": "/images/glazed-raspberry-filled-facts.pdf",
+    "description": "This scrumptious doughnut is glazed and then filled with a sweet and tangy balanced raspberry jelly."
+  },
+  {
+    "title": "Glazed Lemon Filled",
+    "url": "https://www.krispykreme.com/menu/doughnuts/glazed-lemon-filled",
+    "img": "/images/glazed-lemon-filled.jpg",
+    "imgAlt": "Picture of Glazed Lemon Filled",
+    "id": "glazed-lemon-filled",
+    "types": [
+      "Filled",
+      "Glazed",
+      "Fruit"
+    ],
+    "bannerUrl": "/images/glazed-lemon-filled-banner.jpg",
+    "nutritionalFacts": "/images/glazed-lemon-filled-facts.pdf",
+    "description": "Bursting with lemon filling and topped with our signature Original Glaze, our lemon filled doughnut is sure to brighten your taste buds."
+  },
+  {
+    "title": "Strawberry Iced with Sprinkles",
+    "url": "https://www.krispykreme.com/menu/doughnuts/strawberry-iced-with-sprinkles",
+    "img": "/images/strawberry-iced-with-sprinkles.jpg",
+    "imgAlt": "Picture of Strawberry Iced with Sprinkles",
+    "id": "strawberry-iced-with-sprinkles",
+    "types": [
+      "Toppings",
+      "Fruit"
+    ],
+    "bannerUrl": "/images/strawberry-iced-with-sprinkles-banner.jpg",
+    "nutritionalFacts": "/images/strawberry-iced-with-sprinkles-facts.pdf",
+    "description": "Our Original Glazed® Doughnut is dipped in strawberry icing and topped with festive rainbow sprinkles."
+  },
+  {
+    "title": "Apple Fritter",
+    "url": "https://www.krispykreme.com/menu/doughnuts/apple-fritter",
+    "img": "/images/apple-fritter.jpg",
+    "imgAlt": "Picture of Apple Fritter",
+    "id": "apple-fritter",
+    "types": [
+      "Glazed",
+      "Fruit",
+      "OtherVarieties"
+    ],
+    "bannerUrl": "/images/apple-fritter-banner.jpg",
+    "nutritionalFacts": "/images/apple-fritter-facts.pdf",
+    "description": "Apple Fritters are a classic. Ours is bursting with cinnamon and apple flavor, all covered in glaze."
+  },
+  {
+    "title": "Chocolate Glazed Doughnut",
+    "url": "https://www.krispykreme.com/menu/doughnuts/chocolate-glazed-doughnut",
+    "img": "/images/chocolate-glazed-doughnut.jpg",
+    "imgAlt": "Picture of Chocolate Glazed Doughnut",
+    "id": "chocolate-glazed-doughnut",
+    "types": [
+      "Chocolate",
+      "Glazed"
+    ],
+    "bannerUrl": "/images/chocolate-glazed-doughnut-banner.jpg",
+    "nutritionalFacts": "/images/chocolate-glazed-doughnut-facts.pdf",
+    "description": "Our classic Original Glazed® Doughnut covered in rich chocolate glaze.  *Available on Chocolate Glaze Fridays in participating locations."
+  },
+  {
+    "title": "Glazed with KREME<sup>™</sup>  Filling",
+    "url": "https://www.krispykreme.com/menu/doughnuts/glazed-with-kreme-filling",
+    "img": "/images/glazed-with-kreme-filling.jpg",
+    "imgAlt": "Picture of Glazed with KREME<sup>™</sup>  Filling",
+    "id": "glazed-with-kreme-filling",
+    "types": [
+      "Filled",
+      "Glazed"
+    ],
+    "bannerUrl": "/images/glazed-with-kreme-filling-banner.jpg",
+    "nutritionalFacts": "/images/glazed-with-kreme-filling-facts.pdf",
+    "description": "This yeast raised shell is glazed and then filled with delicious KREME."
+  },
+  {
+    "title": "Chocolate Iced Cake",
+    "url": "https://www.krispykreme.com/menu/doughnuts/chocolate-iced-cake",
+    "img": "/images/chocolate-iced-cake.jpg",
+    "imgAlt": "Picture of Chocolate Iced Cake",
+    "id": "chocolate-iced-cake",
+    "types": [
+      "Iced",
+      "Cake",
+      "Chocolate"
+    ],
+    "bannerUrl": "/images/chocolate-iced-cake-banner.jpg",
+    "nutritionalFacts": "/images/chocolate-iced-cake-facts.pdf",
+    "description": "Our Traditional Cake doughnut is hand-dipped in decadent chocolate icing."
+  },
+  {
+    "title": "Chocolate Iced Raspberry Filled",
+    "url": "https://www.krispykreme.com/menu/doughnuts/chocolate-iced-raspberry-filled",
+    "img": "/images/chocolate-iced-raspberry-filled.jpg",
+    "imgAlt": "Picture of Chocolate Iced Raspberry Filled",
+    "id": "chocolate-iced-raspberry-filled",
+    "types": [
+      "Iced",
+      "Toppings",
+      "Chocolate",
+      "Filled",
+      "Fruit",
+      "OtherVarieties"
+    ],
+    "bannerUrl": "/images/chocolate-iced-raspberry-filled-banner.jpg",
+    "nutritionalFacts": "/images/chocolate-iced-raspberry-filled-facts.pdf",
+    "description": "Filled with sweet raspberry jelly, this scrumptious doughnut is topped with chocolate icing and a delicate red swirl."
+  },
+  {
+    "title": "Glazed Chocolate Cake",
+    "url": "https://www.krispykreme.com/menu/doughnuts/glazed-chocolate-cake",
+    "img": "/images/glazed-chocolate-cake.jpg",
+    "imgAlt": "Picture of Glazed Chocolate Cake",
+    "id": "glazed-chocolate-cake",
+    "types": [
+      "Cake",
+      "Chocolate",
+      "Glazed"
+    ],
+    "bannerUrl": "/images/glazed-chocolate-cake-banner.jpg",
+    "nutritionalFacts": "/images/glazed-chocolate-cake-facts.pdf",
+    "description": "If you love chocolate cake then you love this doughnut. It is rich, moist and full of chocolate flavor. We then top it off with our signature glaze."
+  },
+  {
+    "title": "Glazed Blueberry Cake",
+    "url": "https://www.krispykreme.com/menu/doughnuts/glazed-blueberry-cake",
+    "img": "/images/glazed-blueberry-cake.jpg",
+    "imgAlt": "Picture of Glazed Blueberry Cake",
+    "id": "glazed-blueberry-cake",
+    "types": [
+      "Cake",
+      "Glazed",
+      "Fruit"
+    ],
+    "bannerUrl": "/images/glazed-blueberry-cake-banner.jpg",
+    "nutritionalFacts": "/images/glazed-blueberry-cake-facts.pdf",
+    "description": "This classic cake doughnut is bursting with blueberry flavor and then glazed to create an irresistible flavor combination. "
+  },
+  {
+    "title": "Cinnamon Apple Filled",
+    "url": "https://www.krispykreme.com/menu/doughnuts/cinnamon-apple-filled",
+    "img": "/images/cinnamon-apple-filled.jpg",
+    "imgAlt": "Picture of Cinnamon Apple Filled",
+    "id": "cinnamon-apple-filled",
+    "types": [
+      "Filled",
+      "Fruit"
+    ],
+    "bannerUrl": "/images/cinnamon-apple-filled-banner.jpg",
+    "nutritionalFacts": "/images/cinnamon-apple-filled-facts.pdf",
+    "description": "Inspired by classic apple pie, this doughnut is filled with cinnamon apple compote. It then is tossed in a cinnamon sugar topping to incorporate the flavor throughout."
+  },
+  {
+    "title": "Cinnamon Bun",
+    "url": "https://www.krispykreme.com/menu/doughnuts/cinnamon-bun",
+    "img": "/images/cinnamon-bun.jpg",
+    "imgAlt": "Picture of Cinnamon Bun",
+    "id": "cinnamon-bun",
+    "types": [
+      "Glazed",
+      "OtherVarieties"
+    ],
+    "bannerUrl": "/images/cinnamon-bun-banner.jpg",
+    "nutritionalFacts": "/images/cinnamon-bun-facts.pdf",
+    "description": "Who doesn’t love a cinnamon bun? Tempt your taste buds with our cinnamon dough topped with our signature glaze."
+  },
+  {
+    "title": "Cinnamon Sugar",
+    "url": "https://www.krispykreme.com/menu/doughnuts/cinnamon-sugar",
+    "img": "/images/cinnamon-sugar.jpg",
+    "imgAlt": "Picture of Cinnamon Sugar",
+    "id": "cinnamon-sugar",
+    "types": [
+      "Toppings",
+      "OtherVarieties"
+    ],
+    "bannerUrl": "/images/cinnamon-sugar-banner.jpg",
+    "nutritionalFacts": "/images/cinnamon-sugar-facts.pdf",
+    "description": "Our classic ring is tossed in cinnamon sugar for a perfectly simple treat."
+  },
+  {
+    "title": "Glazed Sour Cream",
+    "url": "https://www.krispykreme.com/menu/doughnuts/glazed-sour-cream",
+    "img": "/images/glazed-sour-cream.jpg",
+    "imgAlt": "Picture of Glazed Sour Cream",
+    "id": "glazed-sour-cream",
+    "types": [
+      "Cake",
+      "Glazed"
+    ],
+    "bannerUrl": "/images/glazed-sour-cream-banner.jpg",
+    "nutritionalFacts": "/images/glazed-sour-cream-facts.pdf",
+    "description": "This rich and moist cake doughnut is topped with Original Glaze, providing the perfect finishing touch to a scrumptious classic."
+  },
+  {
+    "title": "Traditional Cake",
+    "url": "https://www.krispykreme.com/menu/doughnuts/traditional-cake",
+    "img": "/images/traditional-cake.jpg",
+    "imgAlt": "Picture of Traditional Cake",
+    "id": "traditional-cake",
+    "types": [
+      "Cake"
+    ],
+    "bannerUrl": "/images/traditional-cake-banner.jpg",
+    "nutritionalFacts": "/images/traditional-cake-facts.pdf",
+    "description": "The classic cake doughnut is simple and a little less sweet than its fellow doughnuts. Moist and rich, sometimes simple is all you need."
+  },
+  {
+    "title": " Chocolate Iced Glazed Cruller",
+    "url": "https://www.krispykreme.com/menu/doughnuts/chocolate-iced-glazed-cruller",
+    "img": "/images/chocolate-iced-glazed-cruller.jpg",
+    "imgAlt": "Picture of  Chocolate Iced Glazed Cruller",
+    "id": "chocolate-iced-glazed-cruller",
+    "types": [
+      "Iced",
+      "Cake",
+      "Chocolate",
+      "Glazed"
+    ],
+    "bannerUrl": "/images/chocolate-iced-glazed-cruller-banner.jpg",
+    "nutritionalFacts": "/images/chocolate-iced-glazed-cruller-facts.pdf",
+    "description": "We cut our cake into a cruller and send it sailing through the glaze waterfall. We then finish it into our decadent chocolate icing."
+  },
+  {
+    "title": "Cinnamon Twist",
+    "url": "https://www.krispykreme.com/menu/doughnuts/cinnamon-twist",
+    "img": "/images/cinnamon-twist.jpg",
+    "imgAlt": "Picture of Cinnamon Twist",
+    "id": "cinnamon-twist",
+    "types": [
+      "OtherVarieties"
+    ],
+    "bannerUrl": "/images/cinnamon-twist-banner.jpg",
+    "nutritionalFacts": "/images/cinnamon-twist-facts.pdf",
+    "description": "A heavenly twist to an old favorite - our yeast-raised doughnut is shaped by hand into a twist, then completely covered in cinnamon sugar! "
+  },
+  {
+    "title": "Double Dark Chocolate",
+    "url": "https://www.krispykreme.com/menu/doughnuts/double-dark-chocolate",
+    "img": "/images/double-dark-chocolate.jpg",
+    "imgAlt": "Picture of Double Dark Chocolate",
+    "id": "double-dark-chocolate",
+    "types": [
+      "Iced",
+      "Chocolate",
+      "Filled",
+      "OtherVarieties"
+    ],
+    "bannerUrl": "/images/double-dark-chocolate-banner.jpg",
+    "nutritionalFacts": "/images/double-dark-chocolate-facts.pdf",
+    "description": ""
+  },
+  {
+    "title": "Dulce De Leche",
+    "url": "https://www.krispykreme.com/menu/doughnuts/dulce-de-leche",
+    "img": "/images/dulce-de-leche.jpg",
+    "imgAlt": "Picture of Dulce De Leche",
+    "id": "dulce-de-leche",
+    "types": [
+      "Toppings",
+      "Filled"
+    ],
+    "bannerUrl": "/images/dulce-de-leche-banner.jpg",
+    "nutritionalFacts": "/images/dulce-de-leche-facts.pdf",
+    "description": "Dulce de leche originated south of the border - a rich and creamy caramel-flavored treat. Its deliciousness inspired our Dulce de Leche doughnut. Thick dulce de leche filling is inside; crunchy, granulated sugar coats the outside."
+  },
+  {
+    "title": "Glazed Cinnamon",
+    "url": "https://www.krispykreme.com/menu/doughnuts/glazed-cinnamon",
+    "img": "/images/glazed-cinnamon.jpg",
+    "imgAlt": "Picture of Glazed Cinnamon",
+    "id": "glazed-cinnamon",
+    "types": [
+      "Toppings",
+      "Glazed"
+    ],
+    "bannerUrl": "/images/glazed-cinnamon-banner.jpg",
+    "nutritionalFacts": "/images/glazed-cinnamon-facts.pdf",
+    "description": "There's something about cinnamon. It's reminiscent of Mom, cinnamon toast and good times at home. To recreate that feeling, try our Glazed Cinnamon doughnut - we've added just the right amount of cinnamon flavor to a yeast-raised doughnut, sent it sailing through our signature glaze waterfall and finish it off with a dusting of powered cinnamon sugar. "
+  },
+  {
+    "title": "Glazed Cruller",
+    "url": "https://www.krispykreme.com/menu/doughnuts/glazed-cruller",
+    "img": "/images/glazed-cruller.jpg",
+    "imgAlt": "Picture of Glazed Cruller",
+    "id": "glazed-cruller",
+    "types": [
+      "Cake",
+      "Glazed"
+    ],
+    "bannerUrl": "/images/glazed-cruller-banner.jpg",
+    "nutritionalFacts": "/images/glazed-cruller-facts.pdf",
+    "description": "Rich and moist, our cruller is an enticing twist on our classic cake doughnut. And, of course, it's finished off with our uniquely delicious signature glaze."
+  },
+  {
+    "title": "Maple Iced Glazed",
+    "url": "https://www.krispykreme.com/menu/doughnuts/maple-iced-glazed",
+    "img": "/images/maple-iced-glazed.jpg",
+    "imgAlt": "Picture of Maple Iced Glazed",
+    "id": "maple-iced-glazed",
+    "types": [
+      "Iced",
+      "Glazed"
+    ],
+    "bannerUrl": "/images/maple-iced-glazed-banner.jpg",
+    "nutritionalFacts": "/images/maple-iced-glazed-facts.pdf",
+    "description": "Our classic Original Glazed® doughnut, dipped in maple flavored icing."
+  },
+  {
+    "title": "Mini Original Glazed<sup>®</sup> Doughnuts",
+    "url": "https://www.krispykreme.com/menu/doughnuts/mini-original-glazed-doughnuts",
+    "img": "/images/mini-original-glazed-doughnuts.jpg",
+    "imgAlt": "Picture of Mini Original Glazed<sup>®</sup> Doughnuts",
+    "id": "mini-original-glazed-doughnuts",
+    "types": [
+      "Glazed",
+      "OtherVarieties"
+    ],
+    "bannerUrl": "/images/mini-original-glazed-doughnuts-banner.jpg",
+    "nutritionalFacts": "/images/mini-original-glazed-doughnuts-facts.pdf",
+    "description": "Same great taste and flavor as the full-sized Original Glazed® Doughnut, just a little smaller."
+  },
+  {
+    "title": "Mini Chocolate Iced Glazed",
+    "url": "https://www.krispykreme.com/menu/doughnuts/mini-chocolate-iced-glazed",
+    "img": "/images/mini-chocolate-iced-glazed.jpg",
+    "imgAlt": "Picture of Mini Chocolate Iced Glazed",
+    "id": "mini-chocolate-iced-glazed",
+    "types": [
+      "Iced",
+      "Chocolate",
+      "Glazed",
+      "OtherVarieties"
+    ],
+    "bannerUrl": "/images/mini-chocolate-iced-glazed-banner.jpg",
+    "nutritionalFacts": "/images/mini-chocolate-iced-glazed-facts.pdf",
+    "description": "Same great taste and flavor as the full-sized Chocolate Iced Glazed doughnut, just a little smaller."
+  },
+  {
+    "title": "Mini Chocolate Iced with Sprinkles",
+    "url": "https://www.krispykreme.com/menu/doughnuts/mini-chocolate-iced-with-sprinkles",
+    "img": "/images/mini-chocolate-iced-with-sprinkles.jpg",
+    "imgAlt": "Picture of Mini Chocolate Iced with Sprinkles",
+    "id": "mini-chocolate-iced-with-sprinkles",
+    "types": [
+      "Iced",
+      "Toppings",
+      "Chocolate",
+      "Glazed",
+      "OtherVarieties"
+    ],
+    "bannerUrl": "/images/mini-chocolate-iced-with-sprinkles-banner.jpg",
+    "nutritionalFacts": "/images/mini-chocolate-iced-with-sprinkles-facts.pdf",
+    "description": "Same great taste and flavor as the full-sized Chocolate Iced with Sprinkles doughnut, just a little smaller."
+  },
+  {
+    "title": "Mini Strawberry Iced with Sprinkles",
+    "url": "https://www.krispykreme.com/menu/doughnuts/mini-strawberry-iced-with-sprinkles",
+    "img": "/images/mini-strawberry-iced-with-sprinkles.jpg",
+    "imgAlt": "Picture of Mini Strawberry Iced with Sprinkles",
+    "id": "mini-strawberry-iced-with-sprinkles",
+    "types": [
+      ""
+    ],
+    "bannerUrl": "/images/mini-strawberry-iced-with-sprinkles-banner.jpg",
+    "nutritionalFacts": "/images/mini-strawberry-iced-with-sprinkles-facts.pdf",
+    "description": "Same great taste and flavor as the full-sized Strawberry Iced with Sprinkles Doughnut, just a little smaller. "
+  },
+  {
+    "title": "New York Cheesecake",
+    "url": "https://www.krispykreme.com/menu/doughnuts/new-york-cheesecake",
+    "img": "/images/new-york-cheesecake.jpg",
+    "imgAlt": "Picture of New York Cheesecake",
+    "id": "new-york-cheesecake",
+    "types": [
+      "Iced",
+      "Toppings",
+      "Filled"
+    ],
+    "bannerUrl": "/images/new-york-cheesecake-banner.jpg",
+    "nutritionalFacts": "/images/new-york-cheesecake-facts.pdf",
+    "description": "Our version of this popular dessert is filled with rich, creamy cheesecake filling, topped with cream cheese icing and sprinkled with crunchy graham."
+  },
+  {
+    "title": "Powdered Blueberry Filled",
+    "url": "https://www.krispykreme.com/menu/doughnuts/powdered-blueberry-filled",
+    "img": "/images/powdered-blueberry-filled.jpg",
+    "imgAlt": "Picture of Powdered Blueberry Filled",
+    "id": "powdered-blueberry-filled",
+    "types": [
+      "Filled",
+      "Fruit"
+    ],
+    "bannerUrl": "/images/powdered-blueberry-filled-banner.jpg",
+    "nutritionalFacts": "/images/powdered-blueberry-filled-facts.pdf",
+    "description": "A yeast-raised doughnut shell jam-packed with blueberry filling and coated with a light dusting of powdered sugar."
+  },
+  {
+    "title": "Powdered Cake",
+    "url": "https://www.krispykreme.com/menu/doughnuts/powdered-cake",
+    "img": "/images/powdered-cake.jpg",
+    "imgAlt": "Picture of Powdered Cake",
+    "id": "powdered-cake",
+    "types": [
+      "Cake"
+    ],
+    "bannerUrl": "/images/powdered-cake-banner.jpg",
+    "nutritionalFacts": "/images/powdered-cake-facts.pdf",
+    "description": "Another classic - This rich and moist traditional cake is covered in powdered sugar. It is worth the mess!"
+  },
+  {
+    "title": "Powdered Cinnamon Cake",
+    "url": "https://www.krispykreme.com/menu/doughnuts/powdered-cinnamon-cake",
+    "img": "/images/powdered-cinnamon-cake.jpg",
+    "imgAlt": "Picture of Powdered Cinnamon Cake",
+    "id": "powdered-cinnamon-cake",
+    "types": [
+      "Cake"
+    ],
+    "bannerUrl": "/images/powdered-cinnamon-cake-banner.jpg",
+    "nutritionalFacts": "/images/powdered-cinnamon-cake-facts.pdf",
+    "description": "Our traditional cake, tossed in powdered cinnamon."
+  },
+  {
+    "title": "Powdered Strawberry Filled",
+    "url": "https://www.krispykreme.com/menu/doughnuts/powdered-strawberry-filled",
+    "img": "/images/powdered-strawberry-filled.jpg",
+    "imgAlt": "Picture of Powdered Strawberry Filled",
+    "id": "powdered-strawberry-filled",
+    "types": [
+      "Toppings",
+      "Filled",
+      "Fruit"
+    ],
+    "bannerUrl": "/images/powdered-strawberry-filled-banner.jpg",
+    "nutritionalFacts": "/images/powdered-strawberry-filled-facts.pdf",
+    "description": "Full of flavor, this doughnut is jam-packed with strawberry filling and dusted in powdered sugar."
+  },
+  {
+    "title": "Powdered with Lemon Kreme",
+    "url": "https://www.krispykreme.com/menu/doughnuts/powdered-with-lemon-kreme",
+    "img": "/images/powdered-with-lemon-kreme.jpg",
+    "imgAlt": "Picture of Powdered with Lemon Kreme",
+    "id": "powdered-with-lemon-kreme",
+    "types": [
+      "Toppings",
+      "Filled",
+      "Fruit"
+    ],
+    "bannerUrl": "/images/powdered-with-lemon-kreme-banner.jpg",
+    "nutritionalFacts": "/images/powdered-with-lemon-kreme-facts.pdf",
+    "description": "A powdered shell filled with tasty lemon kreme."
+  },
+  {
+    "title": "Powdered with Strawberry Kreme",
+    "url": "https://www.krispykreme.com/menu/doughnuts/powdered-with-strawberry-kreme",
+    "img": "/images/powdered-with-strawberry-kreme.jpg",
+    "imgAlt": "Picture of Powdered with Strawberry Kreme",
+    "id": "powdered-with-strawberry-kreme",
+    "types": [
+      "Filled",
+      "Fruit"
+    ],
+    "bannerUrl": "/images/powdered-with-strawberry-kreme-banner.jpg",
+    "nutritionalFacts": "/images/powdered-with-strawberry-kreme-facts.pdf",
+    "description": "A powdered shell filled with sweet, strawberry kreme."
+  },
+  {
+    "title": "Strawberry Iced",
+    "url": "https://www.krispykreme.com/menu/doughnuts/strawberry-iced",
+    "img": "/images/strawberry-iced.jpg",
+    "imgAlt": "Picture of Strawberry Iced",
+    "id": "strawberry-iced",
+    "types": [
+      "Iced",
+      "Glazed",
+      "Fruit"
+    ],
+    "bannerUrl": "/images/strawberry-iced-banner.jpg",
+    "nutritionalFacts": "/images/strawberry-iced-facts.pdf",
+    "description": "The strawberry iced doughnut is a delicious treat and so pretty in pink."
+  },
+  {
+    "title": "Original Glazed<sup>®</sup> Doughnut Holes",
+    "url": "https://www.krispykreme.com/menu/doughnuts/original-glazed-doughnut-holes",
+    "img": "/images/original-glazed-doughnut-holes.jpg",
+    "imgAlt": "Picture of Original Glazed<sup>®</sup> Doughnut Holes",
+    "id": "original-glazed-doughnut-holes",
+    "types": [
+      "Glazed",
+      "OtherVarieties"
+    ],
+    "bannerUrl": "/images/original-glazed-doughnut-holes-banner.jpg",
+    "nutritionalFacts": "/images/original-glazed-doughnut-holes-facts.pdf",
+    "description": "We've taken our Original Glazed® Doughnuts and created tasty, on the go treats for sharing."
+  },
+  {
+    "title": "Glazed Cake Doughnut Holes",
+    "url": "https://www.krispykreme.com/menu/doughnuts/glazed-cake-doughnut-holes",
+    "img": "/images/glazed-cake-doughnut-holes.jpg",
+    "imgAlt": "Picture of Glazed Cake Doughnut Holes",
+    "id": "glazed-cake-doughnut-holes",
+    "types": [
+      "Cake",
+      "Glazed",
+      "OtherVarieties"
+    ],
+    "bannerUrl": "/images/glazed-cake-doughnut-holes-banner.jpg",
+    "nutritionalFacts": "/images/glazed-cake-doughnut-holes-facts.pdf",
+    "description": "Glazed Cake Doughnut Holes. Perfect for sharing! (varies by location)"
+  },
+  {
+    "title": "Glazed Blueberry Cake Doughnut Holes",
+    "url": "https://www.krispykreme.com/menu/doughnuts/glazed-blueberry-cake-doughnut-holes",
+    "img": "/images/glazed-blueberry-cake-doughnut-holes.jpg",
+    "imgAlt": "Picture of Glazed Blueberry Cake Doughnut Holes",
+    "id": "glazed-blueberry-cake-doughnut-holes",
+    "types": [
+      "Cake",
+      "Glazed",
+      "Fruit",
+      "OtherVarieties"
+    ],
+    "bannerUrl": "/images/glazed-blueberry-cake-doughnut-holes-banner.jpg",
+    "nutritionalFacts": "/images/glazed-blueberry-cake-doughnut-holes-facts.pdf",
+    "description": "Glazed Blueberry Cake Doughnut Holes. Perfect for sharing! (varies by location)"
+  },
+  {
+    "title": "Glazed Chocolate Cake Doughnut Holes",
+    "url": "https://www.krispykreme.com/menu/doughnuts/glazed-chocolate-cake-doughnut-holes",
+    "img": "/images/glazed-chocolate-cake-doughnut-holes.jpg",
+    "imgAlt": "Picture of Glazed Chocolate Cake Doughnut Holes",
+    "id": "glazed-chocolate-cake-doughnut-holes",
+    "types": [
+      "Cake",
+      "Chocolate",
+      "Glazed",
+      "OtherVarieties"
+    ],
+    "bannerUrl": "/images/glazed-chocolate-cake-doughnut-holes-banner.jpg",
+    "nutritionalFacts": "/images/glazed-chocolate-cake-doughnut-holes-facts.pdf",
+    "description": "Glazed Chocolate Cake Doughnut Holes. Perfect for sharing! (varies by location)"
+  }
 ]
